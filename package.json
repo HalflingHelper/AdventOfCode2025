@@ -1,0 +1,15 @@
+{
+  "name": "adventofcode2025",
+  "version": "1.0.0",
+  "description": "My solutions",
+  "license": "ISC",
+  "author": "Calvin Josenhans",
+  "type": "module",
+  "main": "out/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}
