@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { Day } from './day'
+import { Day } from './day.js'
 
 
 const day01: Day = {

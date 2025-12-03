@@ -1,4 +1,4 @@
-import { Day } from './day'
+import { Day } from './day.js'
 
 const day02: Day = {
   run: (input: string) => {

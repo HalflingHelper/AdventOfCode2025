@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    "module": "es2022",
+    "module": "Node16",
     "esModuleInterop": true,
     "target": "es2017",
-    "moduleResolution": "classic",
+    "moduleResolution": "node16",
     "sourceMap": true,
     "outDir": "out"
   },
