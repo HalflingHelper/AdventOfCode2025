@@ -8,7 +8,7 @@
   "main": "out/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "exec": "npx tsc; node ./out/index.js"
+    "exec": "npx tsc && node ./out/index.js"
   },
   "devDependencies": {
     "@types/node": "^24.10.1"
