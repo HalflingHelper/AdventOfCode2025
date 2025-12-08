@@ -3,6 +3,8 @@ import { day02 } from './day02.js'
 import { day03 } from './day03.js'
 import { day04 } from './day04.js'
 import { day05 } from './day05.js'
+import { day06 } from './day06.js'
+import { day07 } from './day07.js'
 
 function runDay(day: number, input: string) {
   console.log(`Day ${day}\n==================`)
@@ -10,7 +12,7 @@ function runDay(day: number, input: string) {
     case 1:
       day01.run(input);
       break;
-    case 2: 
+    case 2:
       day02.run(input)
       break;
     case 3:
@@ -21,6 +23,12 @@ function runDay(day: number, input: string) {
       break;
     case 5:
       day05.run(input);
+      break;
+    case 6:
+      day06.run(input);
+      break;
+    case 7:
+      day07.run(input);
       break;
     default:
       console.error(`Day ${day} does not exist`)
